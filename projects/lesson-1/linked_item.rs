@@ -2,6 +2,7 @@ use support::{StorageMap,Parameter};
 use runtime_primitives::traits::Member;
 use parity_codec::{Encode, Decode};
 
+# This is test msg
 #[cfg_attr(feature = "std",derive(Debug, PartialEq, Eq))]
 #[derive(Encode, Decode)]
 pub struct LinkedItem<Item> {
