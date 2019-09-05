@@ -1,6 +1,8 @@
 use support::{StorageMap,Parameter};
 use runtime_primitives::traits::Member;
 use parity_codec::{Encode, Decode};
+use system::ensure_signed;
+use rstd::result;
 
 #[cfg_attr(feature = "std",derive(Debug, PartialEq, Eq))]
 #[derive(Encode, Decode)]
